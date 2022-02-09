@@ -2,7 +2,7 @@
 
 
 
-master 브랜치에는 절대 push 하지 말것!!
+##master 브랜치에는 절대 push 하지 말것!!
 
 
 깃허브에서 파일을 가져올 때는 master 브랜치 내용을 pull 하면 됨  // git pull origin master
