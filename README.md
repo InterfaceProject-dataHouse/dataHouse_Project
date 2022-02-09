@@ -10,6 +10,7 @@
 
 각자 개인의 브랜치를 만들고 거기에 commit & push 하기 (제가 코드 제대로 돌아가는 거 확인 되면 master로 merge 할 예정입니다.)
 
+commit message는 자신이 수정한 내용 잘 드러나게 작성하기
 
 공통 파일(이미지, css)은 확정되면 master에 올릴 예정
 
