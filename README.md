@@ -2,7 +2,7 @@
 
 
 
-##master 브랜치에는 절대 push 하지 말것!!
+## master 브랜치에는 절대 push 하지 말것!!
 
 
 깃허브에서 파일을 가져올 때는 master 브랜치 내용을 pull 하면 됨  // git pull origin master
@@ -15,7 +15,7 @@
 
 
 
-<파이참과 깃허브 연동하기>
+### <파이참과 깃허브 연동하기>
   1) 파이참 new Project 생성
   2) Terminal - Git Bash 열기
   3) git init (처음 할 때만 실행)
@@ -29,7 +29,7 @@
   
   
   
-  <commit & push>
+###  <commit & push>
   1) 코드 수정
   2) git commit -m "입력할 커밋 메시지"   // local branch와 원격 branch가 동일 해야 함 (git checkout 브랜치명)
   3) git push origin 브랜치명
