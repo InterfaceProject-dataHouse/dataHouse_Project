@@ -8,7 +8,7 @@
 깃허브에서 파일을 가져올 때는 master 브랜치 내용을 pull 하면 됨  // git pull origin master
 
 
-각자 개인의 브랜치를 만들고 거기에 commit & push 하기 (제가 코드 제대로 돌아가는 거 확인 되면 master로 merge 할 예정입니다.)
+각자 개인의 브랜치를 만들고 거기에 commit & push 하기 (제가 코드 제대로 돌아가는 거 확인 하고 master로 merge 할 예정입니다.)
 
 commit message는 자신이 수정한 내용 잘 드러나게 작성하기
 
