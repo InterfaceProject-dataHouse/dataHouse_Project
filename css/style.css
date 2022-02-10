@@ -1,0 +1,709 @@
+:root{
+    /*Color*/
+    --white-color: #fff;
+    --black-color: #000;
+    --grey-dark-color: #222;
+    --grey-light-color: #666;
+
+    /*Size*/
+    /*--side-padding: 0;*/
+
+
+    /*Font Size*/
+    --font-logins: 13px;
+    --font-chart: 26px;
+    --font-seeall: 14px;
+
+    /*--swiper-navigation-size: 44px;
+    --swiper-theme-color: #007aff;*/
+}
+
+html {
+    overflow-y: scroll;
+}
+
+html, body {
+    height: 100%;
+}
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    position: relative;
+    /*width: 100%;
+    min-width: 1040px;*/
+
+}
+
+body {
+    font-family: '맑은 고딕';
+}
+
+ul{
+    list-style:none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+input, select, img {
+    vertical-align: middle;
+}
+
+button,
+button:focus{
+    border:none;
+    cursor:pointer;
+    outline:none;
+    background:white;
+}
+
+/*상단광고배너*/
+#cgvwrap .cgv-ad-wrap {
+    width: 100%;
+    height: 80px;
+    z-index: 101;
+}
+
+#cgvwrap .cgv-ad-wrap .sect-head-ad {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#cgvwrap .cgv-ad-wrap .sect-head-ad, .head, .im-wrap, #contents, .foot, .sect-smuse, .sect-cinfo {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+
+div[class^="sect-"] {
+    clear: both;
+    zoom: 1;
+}
+
+div {
+    display: block;
+}
+
+
+/*Header*/
+
+.header {
+    position: relative;
+    z-index: 101;
+}
+
+.header_content {
+    margin-bottom: 50px;
+    background-color: #fff;
+    /*border-bottom: 1px solid #eee;*/
+}
+
+.header_content .contents {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 6px 25px 5px;
+    background-color: #fff;
+}
+
+.header .contents {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header_content .contents h1 {
+    display: inline-flex;
+    align-items: flex-end;
+    height: 53px;
+}
+
+.header_content .contents h1 a img{
+    display: inline-flex;
+    align-items: flex-end;
+    height: 53px;
+    width:116.95px;
+}
+
+.header_content .contents h1 span {
+    font-weight: 300;
+    font-size: 16px;
+    color: #222;
+    letter-spacing: 0.313em;
+    line-height: 1.500em;
+}
+
+.header_content .contents .memberInfo_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.header_content .contents .memberInfo_wrap li {
+    margin-left: 44px;
+    margin-top: 2px;
+}
+
+.header_content .contents .memberInfo_wrap li a {
+    display: block;
+    position: relative;
+    padding-bottom: 19px;
+}
+
+
+
+.header_content .contents .memberInfo_wrap li a img {
+    width: 36px;
+    height: 36px;
+}
+
+
+.header_content .contents .memberInfo_wrap li a span {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.462em;
+    white-space: nowrap;
+    transform: translate(-50%, 0);
+}
+
+
+
+
+
+
+
+/*Menu box*/
+.nav{
+    position: absolute;
+    left: 0;
+    top: 113px;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #fff;
+}
+
+.nav .contents {
+    width:980px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav .contents h1{
+    display: none;
+}
+
+.nav .contents h1 a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav_menu {
+    display: inline-flex;
+}
+
+/*.nav_menu > li {
+    padding: 20px 0;
+}
+
+.nav_menu > li:first-child {
+    width: 137px;
+}*/
+
+.nav_menu > li:nth-child(2) > h2 {
+    left: 80px;
+}
+
+.nav_menu > li:nth-child(3) > h2 {
+    left: 160px;
+}
+
+.nav_menu > li:nth-child(4) > h2 {
+    left: 240px;
+}
+
+.nav_menu > li:nth-child(5) > h2 {
+    left: 335px;
+}
+
+.nav_menu > li:last-child > h2 {
+    left: 430px;
+}
+
+.nav_menu > li > h2 {
+    /*position: absolute;*/
+    display:flex;
+    /*position: relative;*/
+    top: 7px;
+}
+
+.nav_menu > li > h2 > a {
+    font-size: 16px;
+    color: #222;
+    line-height: 1.500em;
+}
+
+.nav_menu > li:first-child .nav_overMenu {
+    padding-left: 0;
+}
+.nav_overMenu {
+    display: none;
+    position: relative;
+    margin-bottom: 8px;
+    padding: 25px 0 0 25px;
+}
+
+.nav_overMenu dt {
+    padding-top: 18px;
+}
+
+.nav_overMenu dt a {
+    font-weight: 700;
+    font-size: 14px;
+    color: #222;
+    line-height: 1.429em;
+}
+
+.nav_overMenu dt + dd {
+    margin-top: 8px;
+}
+
+.nav_overMenu h3 {
+    height: auto;
+    margin: 0;
+    line-height: 1em;
+    text-align: left;
+    background-image: none;
+}
+
+.nav_overMenu dd a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    line-height: 2.143em;
+}
+
+
+
+/*검색창*/
+
+.totalSearch_wrap {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    padding: 0 36px 0 10px;
+}
+
+.totalSearch_wrap label {
+    display: block;
+}
+
+.totalSearch_wrap .btn_totalSearch {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: -1px;
+    width: 26px;
+    height: 26px;
+    font-size: 0;
+    line-height: 0;
+    background: transparent url(./image/search.png) center center/26px scroll no-repeat;
+}
+
+label {
+    cursor: default;
+}
+
+button, input {
+    overflow: visible;
+}
+
+/*Movie Selection*/
+
+.movieSelection_wrap {
+    position: relative;
+    height: 498px;
+    background-color: #000;
+    border-top: 2px solid #fb4357;
+}
+
+.movieSelection_wrap .contents {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.movieSelection_wrap .contents .video_wrap {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.movieSelection_wrap .contents .video_wrap video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.35);
+    z-index: 1;
+}
+
+video {
+    object-fit: contain;
+}
+
+.movieSelection_wrap .contents .movieSelection_title {
+    position: absolute;
+    top: 170px;
+    left: 0;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.450em;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 72%);
+    z-index: 2;
+    /* animation: tt1 1s 3s ease-in forwards; */
+    pointer-events: none;
+}
+
+.movieSelection_wrap .contents .movieSelection_txt {
+    display: -webkit-box;
+    overflow: hidden;
+    position: absolute;
+    top: 239px;
+    left: 0;
+    max-width: 100%;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.450em;
+    text-overflow: ellipsis;
+    z-index: 3;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    /* animation: tt2 1s 3s ease-in forwards; */
+    pointer-events: none;
+}
+
+.movieSelection_wrap .contents .movieSelection_video_controller_wrap {
+    display: inline-flex;
+    position: absolute;
+    top: 315px;
+    left: 3px;
+    z-index: 4;
+    /* animation: tt 0.8s 3s ease-in forwards; */
+}
+
+
+
+/*movieChart-*/
+.movieChartBeScreen_wrap {
+    clear: none;
+    float: none;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(232, 232, 232, 0.37));
+}
+.movieChartBeScreen_wrap .contents {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.movieChartBeScreen_wrap .contents {
+    overflow: hidden;
+    /*margin-left: -30px;*/
+    padding: 50px 30px 60px;
+}
+
+.movieChartBeScreen_btn_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.movieChartBeScreen_btn_wrap .tabBtn_wrap {
+    display: inline-flex;
+}
+
+.movieChartBeScreen_btn_wrap .tabBtn_wrap h3 {
+    height: auto;
+    margin: 0;
+    line-height: 1em;
+    background-image: none;
+}
+
+h3 {
+    background: url(https://img.cgv.co.kr/r2014/images/common/bg/bg_h3_line.jpg) repeat-x 0 50%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.movieChartBeScreen_btn_wrap .tabBtn_wrap h3 a.active {
+    font-weight: 700;
+    color: #222;
+}
+.movieChartBeScreen_btn_wrap .tabBtn_wrap h3 a {
+    font-size: 26px;
+    line-height: 1.423em;
+}
+
+.movieChartBeScreen_btn_wrap .btn_allView {
+    padding: 4px 32px 4px 15px;
+    font-size: 14px;
+    color: #222;
+    line-height: 1.429em;
+    background: transparent url(./../images/common/ico/arrowR_8x13.png) calc(100% - 7px) center/8px 13px scroll no-repeat;
+    border: 1px solid #e2e2e2;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 0 rgb(0 0 0 / 5%);
+}
+
+.movieChart_list.swiper {
+    overflow: visible;
+    position: relative;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+/*element.style {
+    transform: translate3d(0px, 0px, 0px);*/
+}
+.movieChart_list .swiper-wrapper {
+    counter-reset: movie-chart-counter;
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+
+/*element.style {
+    width: 170.4px;
+    margin-right: 32px;
+}*/
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+}
+
+.movieChart_list .swiper-wrapper .swiper-slide .img_wrap {
+    overflow: hidden;
+    position: relative;
+    width: 170px;
+    height: 234px;
+    border-radius: 10px;
+}
+
+.movieChart_list .swiper-wrapper .swiper-slide .movie_info_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.movieChart_list .swiper-wrapper .swiper-slide .img_wrap img {
+    z-index: 1;
+}
+.img_wrap > img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(0, -50%);
+}
+.movieChart_list .swiper-wrapper .swiper-slide .img_wrap .movieAgeLimit_wrap {
+    position: absolute;
+    right: 6px;
+    top: 7px;
+    z-index: 4;
+}
+.movieChart_list .swiper-wrapper .swiper-slide .img_wrap .movieAgeLimit_wrap img {
+    width: 22px;
+    height: 22px;
+}
+.movieChart_list .swiper-wrapper .swiper-slide .img_wrap .movieAgeLimit_wrap .dDay_wrap {
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-top: 5px;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.movieChart_list .swiper-wrapper .swiper-slide .img_wrap .movieAgeLimit_wrap .dDay_wrap span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-weight: 500;
+    font-size: 10px;
+    color: #fb4357;
+    transform: scale(0.9);
+    white-space: nowrap;
+}
+.movieChart_list .swiper-wrapper .swiper-slide .img_wrap .screenType_wrap {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 5;
+}
+.movieChart_list .swiper-wrapper .swiper-slide .img_wrap .movieChart_btn_wrap {
+    display: none;
+}
+/**나일강의 죽음부터*/
+
+.movieChart_list .swiper-button-next {
+    overflow: hidden;
+    right: -20px;
+    top: calc(50% - 26px);
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 0;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    /*right: 10px;*/
+    left: auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color,var(--swiper-theme-color));
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: .35;
+    cursor: auto;
+    pointer-events: none;
+}
+.movieChart_list .swiper-button-disabled {
+    display: none;
+}
+.movieChart_list .swiper-button-prev {
+    overflow: hidden;
+    left: -20px;
+    top: calc(50% - 26px);
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 0;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    /*left: 10px;*/
+    right: auto;
+}
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color,var(--swiper-theme-color));
+}
+
+.swiper .swiper-notification {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+    z-index: -1000;
+}
+
+
+/***********************************************************************************************************/
+
+
+
+/*Video player
+#videoPlay{
+    margin-top:50px;
+    /*border-top: 2px solid #fb4357;*/
+    /*border-top: 1px solid #a58e8e;
+}
+
+#videoPlay .player{
+    position: sticky;
+    top:0;
+    text-align: center;
+    background-color: #000;
+}
+
+#videoPlay .player video{
+    width:100%;
+    height:100%;
+    height: 498px;
+    line-height: 498px;
+    max-width:980px;
+}*/
+
+
+/*이벤트*/
+
+.event .stopAndSeeall ul li img{
+    width:200px;
+    height:300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
