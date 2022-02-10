@@ -1,0 +1,178 @@
+.event_wrap {
+    padding: 60px 0 6px;
+}
+.event_wrap .contents {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+.event_title_wrap {
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.event_title_wrap h3 {
+    float: left;
+    height: auto;
+    margin: 0;
+    font-weight: 700;
+    font-size: 26px;
+    color: #222;
+    line-height: 1.423em;
+    background-image: none;
+}
+h3 {
+    text-align: center;
+}
+.event_title_wrap .btn_allView {
+    float: right;
+    margin-top: 4px;
+    padding: 4px 32px 4px 15px;
+    font-size: 14px;
+    color: #222;
+    line-height: 1.429em;
+    background: transparent url(./../images/common/ico/arrowR_8x13.png) calc(100% - 7px) center/8px 13px scroll no-repeat;
+    border: 1px solid #e2e2e2;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 0 rgb(0 0 0 / 5%);
+}
+.event_title_wrap .btn_eventControl.active {
+    background: transparent url(./../images/common/ico/main/stop.png) center center/9px 13px scroll no-repeat;
+}
+.event_title_wrap .btn_eventControl {
+    display: block;
+    position: absolute;
+    right: 106px;
+    top: 4px;
+    width: 28px;
+    height: 28px;
+    font-size: 0;
+    border: 1px solid #e3e3e3;
+    border-radius: 50%;
+}
+.event_list_wrap {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-top: 19px;
+    margin-left: -30px;
+    padding: 0 30px;
+}
+.event_list_wrap .event_list {
+    overflow: visible;
+    position: relative;
+}
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+.event_list_wrap .event_list .swiper-wrapper .swiper-slide a {
+    display: block;
+}
+.event_list_wrap .event_list .swiper-wrapper .swiper-slide a .img_wrap {
+    overflow: hidden;
+    width: 310px;
+    height: 207px;
+    border-radius: 10px;
+}
+.img_wrap {
+    position: relative;
+}
+.img_wrap > img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(0, -50%);
+}
+.event_list_wrap .event_list .swiper-wrapper .swiper-slide a strong {
+    display: block;
+    overflow: hidden;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #222;
+    line-height: 1.444em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.event_list_wrap .event_list .swiper-wrapper .swiper-slide a span {
+    display: block;
+    margin-top: 4px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.429em;
+}
+.event_list_wrap .swiper-button-next {
+    overflow: hidden;
+    right: -20px;
+    top: calc(50% - 26px);
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 0;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 10px;
+    left: auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color,var(--swiper-theme-color));
+}
+
+.event_list_wrap .swiper-button-prev {
+    overflow: hidden;
+    left: -20px;
+    top: calc(50% - 26px);
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 0;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 10px;
+    right: auto;
+}
+.swiper .swiper-notification {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+    z-index: -1000;
+}
