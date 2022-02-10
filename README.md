@@ -33,10 +33,10 @@ commit message는 자신이 수정한 내용 잘 드러나게 작성하기
 ###  <commit & push>
   1) 코드 수정
   2) git commit -m "입력할 커밋 메시지"   // local branch와 원격 branch가 동일 해야 함 (git checkout 브랜치명)
-  2-1) 모든 브랜치 확인 명령어: git branch -a
   3) git push origin 브랜치명
   
-  
+ 
+ 모든 브랜치 확인 명령어: git branch -a
   
   ---------------------------------------------------------------------
   명령어 쓰지 않고 파이참 UI 이용해도 됨
