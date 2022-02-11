@@ -2,13 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>first_project</title>
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-        <link rel="stylesheet" type="text/css" href="../css/event.css">
-        <link rel="stylesheet" type="text/css" href="../css/fixed_menu.css">
+    <title img src="../image/mainPage/cj_logo.png"> 영화 그 이상의 감동. CGV</title>
+		<link rel="stylesheet" type="text/css" href="../css/content.css">
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <link rel="stylesheet" type="text/css" href="../css/layout.css">
+        <link rel="stylesheet" type="text/css" href="../css/slide1.css">
+        <link rel="stylesheet" type="text/css" href="../css/slide2.css">
+
+    <!-- font-family: 'Noto Sans KR', sans-serif; -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap" rel="stylesheet">
 
 		<script src="../js/jquery-3.5.1.min.js"></script>
-        <script src="../js/menu.js"></script>
+        <script src="../js/menu1.js"></script>
 
     <!-- 각페이지 Header Start-->
 		<script type="text/javascript">
@@ -344,7 +351,7 @@
 		<div class="header">
 			<div class="header_content">
     			<div class="contents">
-        			<h1 onclick=""><a href="index.html"><img src="../image/mainPage/cgvlogoRed.png" alt="CGV"></a><span>CULTUREPLEX</span></h1>
+        			<h1 onclick=""><a href="/"><img src="../image/mainPage/cgvlogoRed.png" alt="CGV"></a><span>CULTUREPLEX</span></h1>
         			<ul class="memberInfo_wrap">
 						<li><a href="login.html"><img src="../image/mainPage/login.png" alt="로그인"><span>로그인</span></a></li>
 						<li><a href="/user/join/"><img src="../image/mainPage/login.png" alt="회원가입"><span>회원가입</span></a></li>
@@ -561,11 +568,11 @@
                 <h1><a href="/" tabindex="-1"><img src="https://img.cgv.co.kr/R2014/images/common/logo/logoWhite.png" alt="CGV"></a></h1>
                 <ul class="nav_menu">
                     <li>
-                        <h2><a href="artHouse1.html">영화</a></h2>
+                        <h2><a href="/movies/?lt=1&amp;ft=0">영화</a></h2>
                         <dl class="nav_overMenu" style="">
-                            <dt><h2><a href="/movies/?lt=1&amp;ft=0" tabindex="-1">영화</a></h2></dt>
+                            <dt><h2><a href="#" tabindex="-1">영화</a></h2></dt>
                             <dd><h3><a href="/movies/?lt=1&amp;ft=0">무비차트</a></h3></dd>
-                            <dd><h3><a href="/arthouse/">아트하우스</a></h3></dd>
+                            <dd><h3><a href="artHouse1.html">아트하우스</a></h3></dd>
                             <dd><h3><a href="/culture-event/event/detailViewUnited.aspx?seq=30717">ICECON</a></h3></dd>
                         </dl>
                     </li>
@@ -2001,7 +2008,9 @@
             <span class="check"><input id="open_today" type="checkbox" /><label for="open_today">오늘 하루 그만 보기</label></span>
             <button class="btn-close" type="button"><span class="hidden">공지사항</span>닫기</button>
         </div>
-    </div><!-- .wrap-noti-main -->
+    </div>
+
+    <!-- .wrap-noti-main -->
 <!-- 메인팝업끝 -->
 </div>
 </script>

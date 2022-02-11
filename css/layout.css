@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+/* ===========================================
+   Grouping Class
+============================================ */
+#cgvwrap .cgv-ad-wrap .sect-head-ad,
+.head, .im-wrap,
+#contents,
+.foot,
+.sect-smuse,
+.sect-cinfo {position:relative; width:980px; margin:0 auto;}
+.head h1, .sect-srh, .sect-booking,.sect-phototicket {position:absolute; z-index:1;}
+.cf:before,.cf:after                                                    {content: " "; /* 1 */display: table; /* 2 */}
+.cf:after                                                               {clear: both;}
+.cf                                                                     {*zoom: 1;}
+
+/* Background */
+.sect-service .util li > a,
+.sect-service .gnb li > a,
+.lnb > ul > li > a,
+.sect-service a.showtimes,
+.sect-booking > a,
+.sect-phototicket > a,
+.sect-person li > a,
+.line-v,
+.line-dot,
+.sect-smuse li > a,
+.sect-cinfo .share a,
+.sect-cinfo .logo {overflow:hidden; background-image:url(https://img.cgv.co.kr/r2014/images/sprite/common_sprite_area_v4_2016.png); background-repeat:no-repeat; text-indent:100%; white-space:nowrap;}
+.lnb h2,
+.sect-smuse h2,
+.sect-cinfo h2 {font:0px/0 a; visibility:hidden;}
+.sect-service h2,
+.im-wrap .lnb > ul > li > a,
+.sect-srh h2,
+.sect-booking h2,
+.sect-booking > a,
+.sect-phototicket h2,
+.sect-phototicket > a,
+.sect-person h2 {font:0px/0 a;}
+
+/* Display:block */
+.sect-service > .util li > a, .sect-service > .gnb li > a, .sect-service a.showtimes, .im-wrap .lnb > ul > li > a, .im-wrap > h2 > a, .im-wrap .ad-partner > a,
+.sect-booking > a,.sect-phototicket > a, .sect-person li > a, .sect-common li > a, .ciols-movie li > a, .sect-smuse li > a, .policy li a, .sect-cinfo .share a, .sect-bcrumb li > a,
+.sect-ad-external > a, .cols-banner .col-hd > a, .sect-showtimes .info-timetable a, .sect-aside-banner .aside-content-btm > a, .sect-aside-banner > .btn-top > a {display:block;}
+
+#cgvwrap {position:relative; width:100%;min-width:1040px}
+#cgvwrap #header {background:#fdfcf0 url(https://img.cgv.co.kr/r2014/images/common/bg/bg_header.gif) repeat-x 0 0;} /* 20140620 DanielKim Del height:255px; padding-top:80px; background-position:0 80px; */
+#cgvwrap #header > .head {position:relative; z-index:100;}
+#cgvwrap #header > .head h1 {top:40px; left:0; width:223px; height:85px; padding:18px 0 0 22px; z-index:110;}
+#cgvwrap #header > .head h1 > a {display:block;}
+
+/* S Common */
+.fixedBtn_wrap{display:flex; justify-content:flex-end; position:fixed; right:0; bottom:80px; min-height:50px; margin-left:440px; text-align:center; z-index:7}
+.fixedBtn_wrap .btn_fixedTicketing{position:absolute; left:auto; right:0px; width:136px; padding:12px 0 14px; font-weight:500; font-size:16px; color:#fff; line-height:1.500em; background-image:linear-gradient(to left, rgb(255, 115, 86), rgb(251, 67, 87)); box-shadow:1px 3px 6px 0 rgba(0, 0, 0, 0.3); border-radius:25px; transition:right 0.4s; opacity:0}
+.fixedBtn_wrap .btn_gotoTop{display:flex; align-items:center; justify-content:center; position:relative; right:0; width:48px; height:48px; background-color:#fff; border:1px solid #000; box-shadow:1px 3px 6px 0 rgba(0, 0, 0, 0.3); border-radius:50%; opacity:0; pointer-events:none; ; transition:opacity 0.2s}
+.fixedBtn_wrap .btn_gotoTop img{width:15px; height:21px}
+
+.fixedBtn_wrap.topBtn .btn_gotoTop{opacity:1; pointer-events:auto; transition:opacity 0.4s}
+.fixedBtn_wrap.topBtn .btn_fixedTicketing{right:58px; opacity:1}
+
+@media only screen and (min-width: 1116px) {
+	.fixedBtn_wrap{right:50%; margin-right:-548px}
+}
+
+/* E Common */
+
+/* S Header */
+	.header{position:relative; z-index:101}
+	.header .contents{width:980px; margin:0 auto}
+		.header_content{margin-bottom:50px; background-color:#fff; border-bottom:1px solid #eee}
+		.header_content .contents{display:flex; justify-content:space-between; padding:30px 6px 25px 5px; background-color:#fff}
+		.header_content .contents h1{display:inline-flex; align-items:flex-end; height:53px}
+		.header_content .contents h1 a{display:block; float:left; height:100%}
+		.header_content .contents h1 a img{display:block; width:auto; height:100%; object-fit:contain}
+		.header_content .contents h1 span{font-weight:300; font-size:16px; color:#222; letter-spacing:0.313em; line-height:1.500em}
+		.header_content .contents .memberInfo_wrap{display:flex; align-items:center}
+		.header_content .contents .memberInfo_wrap li{margin-left:44px; margin-top:2px}
+		.header_content .contents .memberInfo_wrap li:first-child{margin-left:0}
+		.header_content .contents .memberInfo_wrap li a{display:block; position:relative; padding-bottom:19px}
+		.header_content .contents .memberInfo_wrap li a img{width:36px; height:36px}
+		.header_content .contents .memberInfo_wrap li a span{position:absolute; bottom:0; left:50%; font-size:13px; color:#666; line-height:1.462em; white-space:nowrap; transform:translate(-50%, 0)}
+		.header_content .contents .memberInfo_wrap li.ad_partner{width:136px; height:39px; margin-top:5px}
+		.header_content .contents .memberInfo_wrap li.ad_partner + li{margin-left:34px}
+		.header_content .contents .memberInfo_wrap li.ad_partner a{width:100%; height:100%; padding-bottom:0}
+		.header_content .contents .memberInfo_wrap li.ad_partner a img{width:100%; height:100%}
+
+/* S > GNB
+	Description
+	- class 'nav' 에 class 'active' 추가시 서브메뉴노출
+	- class 'nav' 에 class 'fixed' 추가시 상단고정되며 스타일 변경됨
+ */
+		.nav{position:absolute; left:0; top:113px; width:100%; padding:5px 0; background-color:#fff}
+		.nav:after{content:''; display:block; position:absolute; left:0; top:49px; width:100%; height:1px; background-color:#fb4357}
+		.nav:before{content:''; display:block; position:absolute; left:0; bottom:0; width:100%; height:1px; background-color:#a58e8e}
+		.nav .contents{position:relative}
+		.nav .contents h1{display:none}
+			.nav_menu{display:inline-flex}
+			.nav_menu > li{width:162px; padding:20px 0}
+			.nav_menu > li:first-child{width:137px;}
+			.nav_menu > li:first-child .nav_overMenu{padding-left:0}
+			.nav_menu > li:first-child .nav_overMenu:before{content:none}
+			.nav_menu > li:last-child{width:195px}
+			.nav_menu > li:nth-child(2) > h2{left:80px}
+			.nav_menu > li:nth-child(3) > h2{left:160px}
+			.nav_menu > li:nth-child(4) > h2{left:240px}
+			.nav_menu > li:nth-child(5) > h2{left:335px}
+			.nav_menu > li:last-child > h2{left:430px}
+
+			.nav_menu > li > h2{position:absolute; top:7px}
+			.nav_menu > li > h2 > a{font-weight:500; font-size:16px; color:#222; line-height:1.500em}
+			/* .nav_menu > li > h2 > a:hover{text-decoration:underline} */
+			.nav_menu > li > h2 > a strong{font-weight:700; color:#fb4357}
+				.nav_overMenu{display:none; position:relative; margin-bottom:8px; padding:25px 0 0 25px}
+				.nav_overMenu:before{content:''; position:absolute; left:0; top:45px; display:block; width:1px; height:250px; background-color:#eee; opacity:0.8}
+				.nav_overMenu h3{height:auto; margin:0; line-height:1em; text-align:left; background-image:none}
+				.nav_overMenu a:hover{text-decoration:underline}
+				.nav_overMenu dt{padding-top:18px}
+				.nav_overMenu dt a{font-weight:700; font-size:14px; color:#222; line-height:1.429em}
+				.nav_overMenu dt + dd{margin-top:8px}
+				.nav_overMenu dd a{font-weight:400; font-size:14px; color:#666; line-height:2.143em}
+				.nav_overMenu dd a.arrowR:after{content:''; display:inline-flex; align-self:center; width:5px; height:9px; margin-left:4px; background:transparent url('./../images/common/ico/arrowR_5x9.png') center/5px 9px scroll no-repeat}
+
+			.totalSearch_wrap{display:inline-flex; position:absolute; right:0; top:7px; padding:0 36px 0 10px}
+			.totalSearch_wrap:before{content:''; position:absolute; left:0; top:2px; width:1px; height:20px; background-color:#cacaca}
+			.totalSearch_wrap:after{content:''; position:absolute; right:0; top:2px; width:1px; height:20px; background-color:#cacaca}
+			.totalSearch_wrap label{display:block}
+			.totalSearch_wrap label input[type="text"]{width:180px; height:auto; padding:0 0 0 7px; font-size:16px; color:#222; line-height:1.500em; border:none}
+			.totalSearch_wrap .btn_totalSearch{display:block; position:absolute; right:10px; top:-1px; ; width:26px; height:26px; font-size:0; line-height:0; background:transparent url('./../images/common/ico/search.png') center center/26px scroll no-repeat}
+
+			.totalSearch_wrap.active .totalSearchAutocomplete_wrap{display:block}
+
+
+
+			.totalSearchAutocomplete_wrap{display:none; position:absolute; left:0; top:43px; width:100%; min-width:238px; background-color:#fff; border:1px solid #e1e1e1; border-radius:5px; box-shadow:0 2px 9px 0 rgba(0, 0, 0, 0.1)}
+				.totalSearchAutocomplete_list{padding:16px 22px; border-bottom:1px solid #f4f4f4}
+				.totalSearchAutocomplete_list dt{font-weight:500; font-size:16px; color:#222; line-height:1.500em}
+				.totalSearchAutocomplete_list dt + dd{margin-top:5px}
+				.totalSearchAutocomplete_list dd a{font-size:14px; color:#222; line-height:2.214em}
+				.totalSearchAutocomplete_list dd a strong{font-weight:400; color:#fb4357}
+
+				.btn_totalSearchAutocomplete_close{float:right; margin:4px 13px 9px; padding-right:15px; font-size:12px; color:#666; line-height:1.417em; background:transparent url('./../images/common/btn/autocompleteClose.png') right center/11px scroll no-repeat}
+
+		.nav.active .nav_overMenu{display:block}
+
+		.nav.fixed{position:fixed; top:0px; min-width:1040px; padding:10px 0}
+		.nav.fixed:after{top:0; bottom:auto; height:60px; background-image:linear-gradient(to right, rgb(215, 67, 87), rgb(241,79,58) 59%, rgb(239, 100, 47)); z-index:1}
+		.nav.fixed .contents{z-index:2}
+		.nav.fixed .contents h1{display:block; position:absolute; left:0; top:1px; width:70px; height:32px; z-index:3}
+		.nav.fixed .contents h1 a{display:block}
+		.nav.fixed .contents h1 a img{width:100%; height:100%}
+		.nav.fixed .contents .nav_menu > li:first-child > h2{left:120px}
+		.nav.fixed .contents .nav_menu > li:nth-child(2) > h2{left:200px}
+		.nav.fixed .contents .nav_menu > li:nth-child(3) > h2{left:280px}
+		.nav.fixed .contents .nav_menu > li:nth-child(4) > h2{left:360px}
+		.nav.fixed .contents .nav_menu > li:nth-child(5) > h2{left:455px}
+		.nav.fixed .contents .nav_menu > li:last-child > h2{left:550px}
+		.nav.fixed .contents .nav_menu > li > h2 > a{color:#fff}
+		.nav.fixed .contents .nav_menu > li > h2 > a strong{color:#fff}
+		.nav.fixed .contents .totalSearch_wrap:before,
+		.nav.fixed .contents .totalSearch_wrap:after{background-color:#000; opacity:0.2}
+		.nav.fixed .contents .totalSearch_wrap label input[type="text"]{color:#fff; background-color:transparent}
+		.nav.fixed .contents .totalSearch_wrap .btn_totalSearch{background:transparent url('./../images/common/ico/search_w.png') center center/26px scroll no-repeat}
+		.nav.fixed .contents .totalSearchAutocomplete_wrap{position:absolute; left:0; top:49px}
+/* E Header */
+
+/* Header AD Area */
+#cgvwrap .cgv-ad-wrap {width:100%; height:80px; z-index:101} /* 20140620 position:absolute; top:0; left:0; Del */
+#cgvwrap .cgv-ad-wrap .sect-head-ad {width:100%; height:80px; margin:0 auto; text-align:center;}
+.sect_txt_banner {height:80px;background:#fefcef}
+.sect_txt_banner iframe,.sect_txt_banner .inner {display:block;width:980px;height:80px;margin:0 auto}
+iframe#TopBanner {margin: 0 auto;display:block}
+.adreduce {position:relative;height:80px;margin:0 auto}
+.adextend {position: absolute;left: 50%;top: 0px;z-index: 1000;margin: 0 auto;width: 980px;margin-left: -490px;}
+
+
+/* ===========================================
+   Contents Area
+============================================ */
+#contaniner {/*overflow:hidden;*/ position:relative; width:100%; z-index:7}
+#contaniner.bg-bricks {background:url(https://img.cgv.co.kr/r2014/images/common/bg/bg_c_bricks.png) repeat-x 0 29px}
+#contaniner .contents{width:980px; height:100%; margin:0 auto}
+
+
+/* ===========================================
+   Slider Modules
+============================================ */
+.sect-common, .cols-movie {overflow:hidden; width:980px;}
+.sect-common {height:450px; margin-top:25px}
+.cols-movie {height:388px;}
+
+.slider {overflow:hidden; position:relative; z-index:1; width:100%; height:100%;}
+.slider > button[type='button'] {position:absolute; background-image:url(https://img.cgv.co.kr/r2014/images/sprite/sprite_btn.png); background-repeat:no-repeat; font:0/0 a; zoom:1;}
+.slider > .btn-prev,
+.slider > .btn-next,
+.slider > .btn-prev.dim,
+.slider > .btn-next.dim {overflow:hidden; top:50%; width:26px; height:52px; text-indent:100%; white-space:nowrap; margin-top:-26px;}
+.slider > .btn-prev {left:19px; background-position:0 -97px;}
+.slider > .btn-prev.dim {background-position:0 -155px;}
+.slider > .btn-next {right:19px; background-position:-30px -97px;}
+.slider > .btn-next.dim {background-position:-30px -155px;}
+/* .slider ul {clear:both;} */
+/* .slider li - item으로 대체 */
+
+.slider .item-wrap {float:left;}
+*+html .slider .item-wrap {display:inline;}
+.slider button[type='button'] {z-index:20;}
+.slider button[type='button'].btn-pause,
+.slider button[type='button'].btn-play,
+.slider .item-wrap > button[type='button'] {overflow:hidden; position:absolute; top:415px; width:13px; height:13px; background:url(https://img.cgv.co.kr/r2014/images/sprite/sprite_icon.png) no-repeat 0 -90px; text-indent:100%; white-space:nowrap;}
+.slider .item-wrap button[type='button'].on {background-position:-16px -90px;}
+.slider .item-wrap > .item {position:absolute; z-index:5; text-align:center;}
+.slider .item-wrap.on > .item {z-index:10;}
+.slider .item-wrap.move > .item {z-index:15;}
+.slider .item-wrap.on > .item > a {display:block;}
+.slider .item-wrap > .item .ico-play {top:50%; left:50%; width:66px; height:66px; margin:-33px 0 0 -33px; background-position: -121px -21px;}
+
+/* .slider .item-wrap > button[type='button'] {display:none;} */
+.slider button[type='button'].btn-play {left:534px; background-position:-32px -90px;}
+.slider button[type='button'].btn-pause {left:551px; background-position:-48px -90px;}
+
+/* 포토 나오는 슬라이더  */
+.layer-wrap{ position:absolute; top:50%; left:50%; z-index:200;}
+.layer-contents{ width: 980px; height: 506px;}
+.layer-contents .slider{ overflow:visible;}
+.layer-contents	.slider button[type='button'].btn-next{ right:-40px;}
+.layer-contents	.slider button[type='button'].btn-prev{ left:-40px}
+.layer-contents	.slider .item{ position:absolute; display:inline-block; text-align:center; background:#000000; white-space:normal;}
+.layer-contents	.slider .item:before{ content:'';  display:inline-block; height:100%; vertical-align:middle;}
+.layer-contents	.slider .item img{ width:auto; height:auto; max-width:100%; max-height:100%;}
+*+html .layer-contents .slider .item{ background:none;}
+.layer-contents .slider + .btn-close{ top:-23px; right:40px;}
+
