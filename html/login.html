@@ -3,8 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" media="all" type="text/css" href="https://img.cgv.co.kr/R2014/css/webfont.css" />
+    <!--<link rel="stylesheet" media="all" type="text/css" href="https://img.cgv.co.kr/R2014/css/layout.css" />-->
+    <!--<link rel="stylesheet" media="all" type="text/css" href="https://img.cgv.co.kr/R2014/css/content.css" />-->
+    <!--<link rel="stylesheet" media="all" type="text/css" href="https://img.cgv.co.kr/R2014/css/common.css" />-->
+    <link rel="stylesheet" media="all" type="text/css" href="https://img.cgv.co.kr/R2014/css/reset.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="https://img.cgv.co.kr/R2014/css/module.css?20211209" />
 </head>
 <body>
-    로그인 페이지 구현 예정
+    <center>
+        <a href="https://www.youtube.com/watch?v=4i0fJurJuXk"><img src="../image/loginPage/상단광고이미지2.jpg" /></a>
+    </center>
+    <div id="wrap">
+        <div class="header">
+			<div class="header_content">
+    			<div class="contents">
+        			<h1 onclick=""><a href="index.html"><img src="../image/mainPage/cgvlogoRed.png" alt="CGV"></a><span>CULTUREPLEX</span></h1>
+        			<ul class="memberInfo_wrap">
+						<li><a href="login.html"><img src="../image/mainPage/login.png" alt="로그인"><span>로그인</span></a></li>
+						<li><a href="/user/join/"><img src="../image/mainPage/login.png" alt="회원가입"><span>회원가입</span></a></li>
+
+
+						<li><a href="/user/mycgv/"><img src="../image/mainPage/login.png" alt="MY CGV"><span>MY CGV</span></a></li>
+						<li><a href="/support/default.aspx"><img src="../image/mainPage/login.png" alt="고객센터"><span>고객센터</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+        <div class="wrap-login">
+            <div class="sect-login">
+                <ul class="tab-menu-round">
+                    <li class="on">
+                        <a href="login.html">로그인</a>
+                    </li>
+                    <li>
+                        <a href="#">비회원 예매</a>
+                    </li>
+                    <li>
+                        <a href="#">비회원 예매확인</a>
+                    </li>
+                </ul>
+                <div class="box-login">
+                    <h3 class="hidden">회원 로그인</h3>
+                    <form id="form1" method="post" action="#" novalidate="novalidate" onsubmit="return false">
+                        <fieldset>
+                            <legend>회원 로그인</legend>
+                            <p>아이디 비밀번호를 입력하신 후, 로그인 버튼을 클릭해 주세요.</p>
+                            <div class="login">
+                                <input type="text" title="아이디" id="userid" required="required" />
+                                <input type="password" title="패스워드" id="userpwd" required="required" />
+                            </div>
+                            <div class="save-id"><input type="checkbox" id="loginSet" /><label>아이디 저장</label></div>
+                            <button type="submit" id="submit" title="로그인"><span>로그인</span></button>
+                            <div class="login-option">
+                                <a href="#">아이디 찾기</a>
+                                <a href="#">비밀번호 찾기</a>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <div>
+                        <a href="#" class="btn_loginNaver"><img src="../image/loginPage/naverLogin.jpg" alt="네이버 로그인"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sect-loginguide">
+            <div class="box-useguide">
+                <strong>CJ ONE 회원이 아니신가요?</strong>
+                <span>회원가입하시고 다양한 혜택을 누리세요!</span>
+                <strong>
+                    <a href="#"><span>CJ ONE 회원가입하기</span></a>
+                </strong>
+                <em>
+
+                </em>
+                <em>
+                    <a href="#" class="round black" target="_blank"><span>CJ ONE 멤버십이란?</span></a>
+                </em>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
