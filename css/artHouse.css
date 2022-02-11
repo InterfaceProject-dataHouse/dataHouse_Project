@@ -214,3 +214,21 @@ strong{
 
 a:-webkit-any-link {
     cursor: pointer;
+}
+
+.like {
+    text-align: left;
+    display:block;
+    margin-top:10px;
+    margin-right: 3px;
+}
+
+.link-reservation {
+    display: inline-block;
+    width: 91px;
+    height: 35px;
+    background: url(https://img.cgv.co.kr/R2014/images/sprite/sprite_btn.png) 0 0 no-repeat;
+    font: 0/0 a;
+    zoom: 1;
+    vertical-align: top;
+}
