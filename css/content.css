@@ -1,3 +1,6 @@
+@charset "utf-8";
+
+
 /* S COMMON */
 /* S > BUTTON */
 	.btn_wrap{display:flex; flex-wrap:wrap}
@@ -53,9 +56,9 @@
 	.movieChart_list .swiper-wrapper .swiper-slide .movie_info_wrap > span img{width:16px; height:16px; vertical-align:top}
 
 	.movieChart_list .swiper-button-prev{overflow:hidden; left:-20px; top:calc(50% - 26px); width:40px; height:40px; margin-top:-20px; font-size:0; border-radius:50%; box-shadow:2px 2px 8px 0 rgba(0, 0, 0, 0.2)}
-	.movieChart_list .swiper-button-prev:after{content:''; width:40px; height:40px; background:rgba(255, 255, 255, 0.8) url('./../images/common/ico/arrowL.png') center/9px 13px scroll no-repeat}
+	.movieChart_list .swiper-button-prev:after{content:''; width:40px; height:40px; background:rgba(255, 255, 255, 0.8) url('../image/mainPage/arrowL.png') center/9px 13px scroll no-repeat}
 	.movieChart_list .swiper-button-next{overflow:hidden; right:-20px; top:calc(50% - 26px); width:40px; height:40px; margin-top:-20px; font-size:0; border-radius:50%; box-shadow:2px 2px 8px 0 rgba(0, 0, 0, 0.2)}
-	.movieChart_list .swiper-button-next:after{content:''; width:40px; height:40px; background:rgba(255, 255, 255, 0.8) url('./../images/common/ico/arrowL.png') center/9px 13px scroll no-repeat; transform:rotate(-180deg)}
+	.movieChart_list .swiper-button-next:after{content:''; width:40px; height:40px; background:rgba(255, 255, 255, 0.8) url('../image/mainPage/arrowL.png') center/9px 13px scroll no-repeat; transform:rotate(-180deg)}
 	.movieChart_list .swiper-button-disabled{display:none}
 
 /* E COMMON */
@@ -82,11 +85,11 @@
 @keyframes tt2 {
 	to{filter:blur(10px); opacity:0}
 }*/
-.movieSelection_wrap .contents .movieSelection_video_controller_wrap .btn_movieSelection_detailView{display:block; padding:5px 30px 5px 18px; font-size:14px; color:#343434; line-height:1.429em; background:rgba(255, 255, 255, 0.8) url('./../images/common/ico/arrowR_8x13.png') calc(100% - 11px) center/8px 13px scroll no-repeat; border-radius:15px}
-.movieSelection_wrap .contents .movieSelection_video_controller_wrap .btn_movieSelection_playStop{display:block; margin-left:10px; width:28px; height:28px; font-size:0; background:transparent url('./../images/main/ico/play.png') center/18px scroll no-repeat; border:1px solid #979797; border-radius:50%}
-.movieSelection_wrap .contents .movieSelection_video_controller_wrap .btn_movieSelection_playStop.active{background:transparent url('./../images/main/ico/pause.png') center/18px scroll no-repeat;}
-.movieSelection_wrap .contents .movieSelection_video_controller_wrap .btn_movieSelection_soundOnOff{display:block; margin-left:10px; width:28px; height:28px; font-size:0; background:transparent url('./../images/main/ico/soundOff.png') center/18px scroll no-repeat; border:1px solid #979797; border-radius:50%}
-.movieSelection_wrap .contents .movieSelection_video_controller_wrap .btn_movieSelection_soundOnOff.active{background:transparent url('./../images/main/ico/soundOn.png') center/18px scroll no-repeat;}
+.movieSelection_wrap .contents .movieSelection_video_controller_wrap .btn_movieSelection_detailView{display:block; padding:5px 30px 5px 18px; font-size:14px; color:#343434; line-height:1.429em; background:rgba(255, 255, 255, 0.8) url('../image/mainPage/arrowR_8x13.png') calc(100% - 11px) center/8px 13px scroll no-repeat; border-radius:15px}
+.movieSelection_wrap .contents .movieSelection_video_controller_wrap .btn_movieSelection_playStop{display:block; margin-left:10px; width:28px; height:28px; font-size:0; background:transparent url('../image/mainPage/play.png') center/18px scroll no-repeat; border:1px solid #979797; border-radius:50%}
+.movieSelection_wrap .contents .movieSelection_video_controller_wrap .btn_movieSelection_playStop.active{background:transparent url('../image/mainPage/pause.png') center/18px scroll no-repeat;}
+.movieSelection_wrap .contents .movieSelection_video_controller_wrap .btn_movieSelection_soundOnOff{display:block; margin-left:10px; width:28px; height:28px; font-size:0; background:transparent url('../image/mainPage/soundOff.png') center/18px scroll no-repeat; border:1px solid #979797; border-radius:50%}
+.movieSelection_wrap .contents .movieSelection_video_controller_wrap .btn_movieSelection_soundOnOff.active{background:transparent url('../image/mainPage/soundOn.png') center/18px scroll no-repeat;}
 
 /* S > 무비차트 | 상영예정작 */
 .movieChartBeScreen_wrap{clear:none; float:none; background-image:linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(232, 232, 232, 0.37))}
@@ -100,16 +103,16 @@
 	.movieChartBeScreen_btn_wrap .tabBtn_wrap h3 ~ h3:before{content:''; display:block; position:absolute; left:-16px; top:50%; width:1px; height:14px; margin-top:-7px; background-color:#d8d8d8}
 	.movieChartBeScreen_btn_wrap .tabBtn_wrap h3 a{font-weight:400; font-size:26px; color:#666; line-height:1.423em}
 	.movieChartBeScreen_btn_wrap .tabBtn_wrap h3 a.active{font-weight:700; color:#222}
-	.movieChartBeScreen_btn_wrap .btn_allView{padding:4px 32px 4px 15px; font-size:14px; color:#222; line-height:1.429em; background:transparent url('./../images/common/ico/arrowR_8x13.png') calc(100% - 7px) center/8px 13px scroll no-repeat; border:1px solid #e2e2e2; border-radius:15px; box-shadow:1px 1px 1px 0 rgba(0, 0, 0, 0.05)}
+	.movieChartBeScreen_btn_wrap .btn_allView{padding:4px 32px 4px 15px; font-size:14px; color:#222; line-height:1.429em; background:transparent url('../image/mainPage/arrowR_8x13.png') calc(100% - 7px) center/8px 13px scroll no-repeat; border:1px solid #e2e2e2; border-radius:15px; box-shadow:1px 1px 1px 0 rgba(0, 0, 0, 0.05)}
 
 /* S > EVENT */
 .event_wrap{padding:60px 0 6px}
 	.event_title_wrap{position:relative; align-items:center; justify-content:space-between}
 	.event_title_wrap:after{content:''; clear:both; display:block; font-size:0; line-height:0}
 	.event_title_wrap h3{float:left; height:auto; margin:0; font-weight:700; font-size:26px; color:#222; line-height:1.423em; background-image:none}
-	.event_title_wrap .btn_allView{float:right; margin-top:4px; padding:4px 32px 4px 15px; font-size:14px; color:#222; line-height:1.429em; background:transparent url('./../images/common/ico/arrowR_8x13.png') calc(100% - 7px) center/8px 13px scroll no-repeat; border:1px solid #e2e2e2; border-radius:15px; box-shadow:1px 1px 1px 0 rgba(0, 0, 0, 0.05)}
-	.event_title_wrap .btn_eventControl{display:block; position:absolute; right:106px; top:4px; width:28px; height:28px; font-size:0; background:transparent url('./../images/common/ico/main/play.png') 10px center/11px 15px scroll no-repeat; border:1px solid #e3e3e3; border-radius:50%}
-	.event_title_wrap .btn_eventControl.active{background:transparent url('./../images/common/ico/main/stop.png') center center/9px 13px scroll no-repeat}
+	.event_title_wrap .btn_allView{float:right; margin-top:4px; padding:4px 32px 4px 15px; font-size:14px; color:#222; line-height:1.429em; background:transparent url('../image/mainPage/arrowR_8x13.png') calc(100% - 7px) center/8px 13px scroll no-repeat; border:1px solid #e2e2e2; border-radius:15px; box-shadow:1px 1px 1px 0 rgba(0, 0, 0, 0.05)}
+	.event_title_wrap .btn_eventControl{display:block; position:absolute; right:106px; top:4px; width:28px; height:28px; font-size:0; background:transparent url('../image/mainPage/play.png') 10px center/11px 15px scroll no-repeat; border:1px solid #e3e3e3; border-radius:50%}
+	.event_title_wrap .btn_eventControl.active{background:transparent url('../image/mainPage/stop.png') center center/9px 13px scroll no-repeat}
 
 	.event_list_wrap{overflow:hidden; position:relative; width:100%; margin-top:19px; margin-left:-30px; padding:0 30px}
 	.event_list_wrap .event_list{overflow:visible; position:relative}
@@ -120,7 +123,12 @@
 	.event_list_wrap .event_list .swiper-wrapper .swiper-slide a strong{display:block; overflow:hidden; margin-top:16px; font-weight:500; font-size:18px; color:#222; line-height:1.444em; text-overflow:ellipsis; white-space:nowrap}
 	.event_list_wrap .event_list .swiper-wrapper .swiper-slide a span{display:block; margin-top:4px; font-size:14px; color:#666; line-height:1.429em}
 	.event_list_wrap .swiper-button-prev{overflow:hidden; left:-20px; top:calc(50% - 26px); width:40px; height:40px; margin-top:-20px; font-size:0; border-radius:50%; box-shadow:2px 2px 8px 0 rgba(0, 0, 0, 0.2)}
-	.event_list_wrap .swiper-button-prev:after{content:''; width:40px; height:40px; background:rgba(255, 255, 255, 0.8) url('./../images/common/ico/arrowL.png') center/9px 13px scroll no-repeat}
+	.event_list_wrap .swiper-button-prev:after{content:''; width:40px; height:40px; background:rgba(255, 255, 255, 0.8) url('../image/mainPage/arrowL.png') center/9px 13px scroll no-repeat}
 	.event_list_wrap .swiper-button-next{overflow:hidden; right:-20px; top:calc(50% - 26px); width:40px; height:40px; margin-top:-20px; font-size:0; border-radius:50%; box-shadow:2px 2px 8px 0 rgba(0, 0, 0, 0.2)}
-	.event_list_wrap .swiper-button-next:after{content:''; width:40px; height:40px; background:rgba(255, 255, 255, 0.8) url('./../images/common/ico/arrowL.png') center/9px 13px scroll no-repeat; transform:rotate(-180deg)}
+	.event_list_wrap .swiper-button-next:after{content:''; width:40px; height:40px; background:rgba(255, 255, 255, 0.8) url('../image/mainPage/arrowL.png') center/9px 13px scroll no-repeat; transform:rotate(-180deg)}
 	.event_list_wrap .swiper-button-disabled{display:none}
+
+
+
+
+

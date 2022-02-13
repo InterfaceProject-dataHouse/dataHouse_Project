@@ -63,6 +63,10 @@
 	.fixedBtn_wrap{right:50%; margin-right:-548px}
 }
 
+
+
+
+
 /* E Common */
 
 /* S Header */
@@ -126,20 +130,11 @@
 			.totalSearch_wrap:after{content:''; position:absolute; right:0; top:2px; width:1px; height:20px; background-color:#cacaca}
 			.totalSearch_wrap label{display:block}
 			.totalSearch_wrap label input[type="text"]{width:180px; height:auto; padding:0 0 0 7px; font-size:16px; color:#222; line-height:1.500em; border:none}
-			.totalSearch_wrap .btn_totalSearch{display:block; position:absolute; right:10px; top:-1px; ; width:26px; height:26px; font-size:0; line-height:0; background:transparent url('./../images/common/ico/search.png') center center/26px scroll no-repeat}
+			.totalSearch_wrap .btn_totalSearch{display:block; position:absolute; right:10px; top:-1px; ; width:26px; height:26px; font-size:0; line-height:0; background:transparent url('../image/mainPage/search.png') center center/26px scroll no-repeat}
 
 			.totalSearch_wrap.active .totalSearchAutocomplete_wrap{display:block}
 
 
-
-			.totalSearchAutocomplete_wrap{display:none; position:absolute; left:0; top:43px; width:100%; min-width:238px; background-color:#fff; border:1px solid #e1e1e1; border-radius:5px; box-shadow:0 2px 9px 0 rgba(0, 0, 0, 0.1)}
-				.totalSearchAutocomplete_list{padding:16px 22px; border-bottom:1px solid #f4f4f4}
-				.totalSearchAutocomplete_list dt{font-weight:500; font-size:16px; color:#222; line-height:1.500em}
-				.totalSearchAutocomplete_list dt + dd{margin-top:5px}
-				.totalSearchAutocomplete_list dd a{font-size:14px; color:#222; line-height:2.214em}
-				.totalSearchAutocomplete_list dd a strong{font-weight:400; color:#fb4357}
-
-				.btn_totalSearchAutocomplete_close{float:right; margin:4px 13px 9px; padding-right:15px; font-size:12px; color:#666; line-height:1.417em; background:transparent url('./../images/common/btn/autocompleteClose.png') right center/11px scroll no-repeat}
 
 		.nav.active .nav_overMenu{display:block}
 
@@ -160,18 +155,9 @@
 		.nav.fixed .contents .totalSearch_wrap:before,
 		.nav.fixed .contents .totalSearch_wrap:after{background-color:#000; opacity:0.2}
 		.nav.fixed .contents .totalSearch_wrap label input[type="text"]{color:#fff; background-color:transparent}
-		.nav.fixed .contents .totalSearch_wrap .btn_totalSearch{background:transparent url('./../images/common/ico/search_w.png') center center/26px scroll no-repeat}
+		.nav.fixed .contents .totalSearch_wrap .btn_totalSearch{background:transparent url('../image/mainPage/search_w.png') center center/26px scroll no-repeat}
 		.nav.fixed .contents .totalSearchAutocomplete_wrap{position:absolute; left:0; top:49px}
 /* E Header */
-
-/* Header AD Area */
-#cgvwrap .cgv-ad-wrap {width:100%; height:80px; z-index:101} /* 20140620 position:absolute; top:0; left:0; Del */
-#cgvwrap .cgv-ad-wrap .sect-head-ad {width:100%; height:80px; margin:0 auto; text-align:center;}
-.sect_txt_banner {height:80px;background:#fefcef}
-.sect_txt_banner iframe,.sect_txt_banner .inner {display:block;width:980px;height:80px;margin:0 auto}
-iframe#TopBanner {margin: 0 auto;display:block}
-.adreduce {position:relative;height:80px;margin:0 auto}
-.adextend {position: absolute;left: 50%;top: 0px;z-index: 1000;margin: 0 auto;width: 980px;margin-left: -490px;}
 
 
 /* ===========================================
@@ -180,54 +166,4 @@ iframe#TopBanner {margin: 0 auto;display:block}
 #contaniner {/*overflow:hidden;*/ position:relative; width:100%; z-index:7}
 #contaniner.bg-bricks {background:url(https://img.cgv.co.kr/r2014/images/common/bg/bg_c_bricks.png) repeat-x 0 29px}
 #contaniner .contents{width:980px; height:100%; margin:0 auto}
-
-
-/* ===========================================
-   Slider Modules
-============================================ */
-.sect-common, .cols-movie {overflow:hidden; width:980px;}
-.sect-common {height:450px; margin-top:25px}
-.cols-movie {height:388px;}
-
-.slider {overflow:hidden; position:relative; z-index:1; width:100%; height:100%;}
-.slider > button[type='button'] {position:absolute; background-image:url(https://img.cgv.co.kr/r2014/images/sprite/sprite_btn.png); background-repeat:no-repeat; font:0/0 a; zoom:1;}
-.slider > .btn-prev,
-.slider > .btn-next,
-.slider > .btn-prev.dim,
-.slider > .btn-next.dim {overflow:hidden; top:50%; width:26px; height:52px; text-indent:100%; white-space:nowrap; margin-top:-26px;}
-.slider > .btn-prev {left:19px; background-position:0 -97px;}
-.slider > .btn-prev.dim {background-position:0 -155px;}
-.slider > .btn-next {right:19px; background-position:-30px -97px;}
-.slider > .btn-next.dim {background-position:-30px -155px;}
-/* .slider ul {clear:both;} */
-/* .slider li - item으로 대체 */
-
-.slider .item-wrap {float:left;}
-*+html .slider .item-wrap {display:inline;}
-.slider button[type='button'] {z-index:20;}
-.slider button[type='button'].btn-pause,
-.slider button[type='button'].btn-play,
-.slider .item-wrap > button[type='button'] {overflow:hidden; position:absolute; top:415px; width:13px; height:13px; background:url(https://img.cgv.co.kr/r2014/images/sprite/sprite_icon.png) no-repeat 0 -90px; text-indent:100%; white-space:nowrap;}
-.slider .item-wrap button[type='button'].on {background-position:-16px -90px;}
-.slider .item-wrap > .item {position:absolute; z-index:5; text-align:center;}
-.slider .item-wrap.on > .item {z-index:10;}
-.slider .item-wrap.move > .item {z-index:15;}
-.slider .item-wrap.on > .item > a {display:block;}
-.slider .item-wrap > .item .ico-play {top:50%; left:50%; width:66px; height:66px; margin:-33px 0 0 -33px; background-position: -121px -21px;}
-
-/* .slider .item-wrap > button[type='button'] {display:none;} */
-.slider button[type='button'].btn-play {left:534px; background-position:-32px -90px;}
-.slider button[type='button'].btn-pause {left:551px; background-position:-48px -90px;}
-
-/* 포토 나오는 슬라이더  */
-.layer-wrap{ position:absolute; top:50%; left:50%; z-index:200;}
-.layer-contents{ width: 980px; height: 506px;}
-.layer-contents .slider{ overflow:visible;}
-.layer-contents	.slider button[type='button'].btn-next{ right:-40px;}
-.layer-contents	.slider button[type='button'].btn-prev{ left:-40px}
-.layer-contents	.slider .item{ position:absolute; display:inline-block; text-align:center; background:#000000; white-space:normal;}
-.layer-contents	.slider .item:before{ content:'';  display:inline-block; height:100%; vertical-align:middle;}
-.layer-contents	.slider .item img{ width:auto; height:auto; max-width:100%; max-height:100%;}
-*+html .layer-contents .slider .item{ background:none;}
-.layer-contents .slider + .btn-close{ top:-23px; right:40px;}
 
