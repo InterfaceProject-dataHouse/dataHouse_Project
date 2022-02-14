@@ -232,3 +232,58 @@ a:-webkit-any-link {
     zoom: 1;
     vertical-align: top;
 }
+
+.nav {
+    position: absolute;
+    top: 113px;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #fff;
+}
+
+.nav:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #a58e8e;
+}
+
+.nav:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 49px;
+    width: 100%;
+    height: 1px;
+    background-color: #fb4357;
+}
+
+.nav .contents {
+    position:relative;
+}
+
+.header .contents {
+    width:980px;
+    margin: 0 auto;
+}
+
+.nav .contents h1 {
+    display: none;
+}
+
+.nav_menu {
+    display: inline-flex;
+}
+
+.totalSearch_wrap {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    padding: 0 36px 0 10px;
+}
