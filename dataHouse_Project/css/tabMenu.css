@@ -1,0 +1,52 @@
+/*tabMenu.css*/
+
+/*********** 탭메뉴 *********/
+/*탭메뉴와 탭컨텐츠를 모두 포함하는 div 태그*/
+
+
+#tabMenuBox {
+    width:80%;
+    height:580px;
+    background:white;
+    padding:40px;
+    text-align:center;
+}
+
+#tabMenu ul {height:30px; padding:0;}
+
+#tabMenu ul li {
+    float:left;
+    width:25%;
+    padding:0;
+    height:30px;
+    line-height:30px;
+    overflow: hidden;
+    margin-top:0;
+}
+
+/*tab에 마우스 올렸을때 커서 포인터 변경*/
+#tabMenu img:hover {cursor:pointer;}
+
+/*클래스 선택자 추가 : jquery에서 사용하기 위한 준비*/
+.selectedItem img {margin-top:-30px}
+
+/*****************TAB CONTENT ********************/
+#tabContent {
+    width:100%;
+    height:550px;
+    margin-top:20px;
+    border-top:solid 1px #CCCCCC;
+    border-bottom:solid 1px #CCCCCC;
+}
+
+/* tabcontent의 모든 div를 숨기고 */
+#tabContent div{
+    display:none;
+    padding:0;
+    margin-top:20px;
+}
+
+/*tabcontent의 첫번째 div만 보이게 설정*/
+#tabContent div:first-child {display:block;}
+
+#tabContent img {width:90%; border:solid 1px #CCCCCC;}
