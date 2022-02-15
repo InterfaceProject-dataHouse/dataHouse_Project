@@ -112,7 +112,7 @@
 	.event_title_wrap:after{content:''; clear:both; display:block; font-size:0; line-height:0}
 	.event_title_wrap h3{float:left; height:auto; margin:0; font-weight:700; font-size:26px; color:#222; line-height:1.423em; background-image:none}
 	.event_title_wrap .btn_allView{float:right; margin-top:4px; padding:4px 32px 4px 15px; font-size:14px; color:#222; line-height:1.429em; background:transparent url('../image/mainPage/arrowR_8x13.png') calc(100% - 7px) center/8px 13px scroll no-repeat; border:1px solid #e2e2e2; border-radius:15px; box-shadow:1px 1px 1px 0 rgba(0, 0, 0, 0.05)}
-	.event_title_wrap .btn_eventControl{display:block; position:absolute; right:106px; top:4px; width:28px; height:28px; font-size:0; background:transparent url('../image/mainPage/play.png') 10px center/11px 15px scroll no-repeat; border:1px solid #e3e3e3; border-radius:50%}
+	.event_title_wrap .btn_eventControl{display:block; position:absolute; right:106px; top:4px; width:28px; height:28px; font-size:0; background:transparent url('../image/mainPage/play_b.png') 10px center/11px 15px scroll no-repeat; border:1px solid #e3e3e3; border-radius:50%}
 	.event_title_wrap .btn_eventControl.active{background:transparent url('../image/mainPage/stop.png') center center/9px 13px scroll no-repeat}
 
 	.event_list_wrap{overflow:hidden; position:relative; width:100%; margin-top:19px; margin-left:-30px; padding:0 30px}
