@@ -287,3 +287,13 @@ a:-webkit-any-link {
     top: 7px;
     padding: 0 36px 0 10px;
 }
+
+.link-question {
+    width: 31px;
+    height: 27px;
+    background: #ffffff url(
+    https://img.cgv.co.kr/R2014/images/common/ico/ico_question.gif) 0 0 no-repeat;
+    vertical-align: top;
+    font: 0/0 a;
+    zoom: 1;
+}
